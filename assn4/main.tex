@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\title{Math 300 LaTeX Assignment 4}
+\author{Chris Hayward}
+\begin{document}
+\maketitle
+\begin{enumerate}
+\item{Binary Integers}
+
+a. $16_{10}=00010000_2=10_{16}$
+
+b. $170_{10}=10101010_2=\textrm{AA}_{16}$
+
+c. $197_{10}=11000101_2=\textrm{C5}_{16}$
+
+d. $255_{10}=11111111_2=\textrm{FF}_{16}$
+
+\item{Fixed Point}
+
+The whole portion of the number requires 9 bits because $\log_2(512)=9$
+
+The fractional portion of the number requires 7 bits because $\log_2(128)=7$
+
+The total number of bits that a fixed point number meeting the constraints is 16
+\item{Fixed Point}
+
+If we multiply two fixed point numbers with N whole number bits and M fractional bits, to avoid losing any information the resulting number must have 2N whole number bits and 2M fractional bits.
+\item{Networking concepts}
+
+a. The SSL and HTTPS protocols will be used during the transaction. HTTPS(Hypertext Transfer Protocol Secure) is used to connect to web services in a secure way(hence the S on the end) using encryption. The SSL(Secure Socket Layer) is the protocol that actually handles the encryption for this scenario.
+
+b. Both Alice and Bob must keep their private keys secret to ensure nobody can decode the messages they send. If this secret leaks out anyone that has it can use it to decode the messages, and Alice and Bob must generate a new private key.
+\end{enumerate}
+\end{document}
